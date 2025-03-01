@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-image: url(../imagenes/Tile-Bg-Autumn.webp);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    background-image: url(../imagenes/fc04a7b2f7f8565c38b4b41fa3c854e7c678fc56.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    height: 50px;
+}
+.btn-group button{
+    background: rgba(57, 57, 217, 0.8);
+    border: none;
+}
+#carouselExampleCaptions{
+    margin: 40px auto;
+    width: 70%;
+}
+.carousel-inner h5{
+    font-size: 4rem;
+    color: #c0c0c0;
+}
+.carousel-inner p{
+    color: #c0c0c0;
+    font-size: 1.5rem;
+}
