@@ -16,25 +16,35 @@ header{
     height: 75vh;
     width: 100%;
     overflow: hidden;
-    padding-top: 20px;
 }
 .navbar{
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
     height: 50px;
-    color: aqua;
 }
-
 .container-fluid{
-    background-color: rgba(21, 0, 255, 0.5);
+    background-color: rgb(29, 56, 123);
     height: 6vh;
-    border: 6px solid rgba(21, 0, 255, 0.8);
 }
-
+.dropdown-menu{
+    background-color: rgb(85, 90, 100);
+}
+.dropdown-item:hover{
+    background-color: rgb(90, 186, 244);
+}
+.d-flex .btn{
+    background-color: rgb(49, 98, 130);
+    color: white;
+    border: none;
+}
 #carouselExampleCaptions{
     margin: 40px auto;
     width: 70%;
+}
+#carouselExampleCaptions>p{
+    color:rgb(90, 186, 244);
+    font-size: 2rem;
 }
 .carousel-inner h5{
     font-size: 4rem;
@@ -43,4 +53,12 @@ header{
 .carousel-inner p{
     color: #c0c0c0;
     font-size: 1.5rem;
+}
+.imagenes-juegos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    width: 70%;
 }
