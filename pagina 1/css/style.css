@@ -56,9 +56,22 @@ header{
 }
 .imagenes-juegos{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     justify-items: center;
     gap: 20px;
     margin: 0 auto;
     width: 70%;
+}
+.image-juego{
+    position: relative;
+}
+.texto-imagen{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 10px;
+    color: rgb(190, 238, 17);
+    background: rgb(76, 107, 34);
+    font-size: 1.5rem;
 }
