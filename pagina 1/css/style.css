@@ -51,10 +51,10 @@ header{
 }
 #carouselExampleCaptions>p{
     color:rgb(90, 186, 244);
-    font-size: clamp(1rem, 2.5vw, 5rem);
+    font-size: clamp(1rem, 2vw, 3rem);
 }
 .carousel-inner h5{
-    font-size: clamp(30px, 1vw, 58px);
+    font-size: clamp(30px, 2vw, 48px);
     color: #c0c0c0;
 }
 .carousel-inner p{
@@ -63,7 +63,7 @@ header{
 }
 .imagenes-juegos{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(clamp(250px, 50%, 500px), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(clamp(250px, 50%, 400px), 1fr));
     justify-items: center;
     gap: 20px;
     margin: 0 auto;
@@ -71,6 +71,11 @@ header{
 }
 .image-juego{
     position: relative;
+}
+.card .btn{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
 }
 .texto-imagen{
     position: absolute;
@@ -82,11 +87,14 @@ header{
     background: rgb(76, 107, 34);
     font-size: 1.5rem;
 }
+.card-text{
+    padding-bottom: 20px;
+}
 .rebaja{
     color: rgb(90, 186, 244); 
     width: 70%; 
     margin: 0 auto; 
-    font-size: clamp(1rem, 2.5vw, 5rem);
+    font-size: clamp(1rem, 2vw, 5rem);
 }
 
 .info-img{
@@ -112,10 +120,7 @@ footer{
     width: 70%;
     margin: 0 auto;
 }
-.footer-icon{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-}
+
 .footer-icon>i>a{
     color: white;
     margin: 0 10px;
