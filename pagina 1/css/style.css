@@ -96,7 +96,6 @@ header{
     margin: 0 auto; 
     font-size: clamp(1rem, 2vw, 5rem);
 }
-
 .info-img{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -106,7 +105,6 @@ header{
     width: 70%;
     margin: 0 auto;
 }
-
 footer{
     background-color:  rgb(29, 56, 123);
     color: white;
@@ -120,7 +118,6 @@ footer{
     width: 70%;
     margin: 0 auto;
 }
-
 .footer-icon>i>a{
     color: white;
     margin: 0 10px;
