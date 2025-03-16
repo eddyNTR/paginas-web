@@ -24,15 +24,8 @@ header{
     width: 100%;
     height: clamp(50vh, 50vw, 75vh);
 }
-.navbar{
-    width: clamp(35vh, 50vw, 75vh);
-    margin: 0 auto;
-    justify-content: space-around;
-    height: 50px;
-}
 .container-fluid{
     background-color: rgb(29, 56, 123);
-    height: 6vh;
 }
 .dropdown-menu{
     background-color: rgb(85, 90, 100);
